@@ -1,0 +1,35 @@
+@import "@terminalsystems/stylesheets/assets/sass/styles";
+
+.header {
+  background-color: $black;
+  border-bottom: none;
+  margin-top: 24px;
+  position: fixed;
+  z-index: 100;
+  width: 100%;
+  right: 0;
+  left: 0;
+  top: 0;
+  .logo {
+    img {
+      width: 49px;
+    }
+  }
+  .header-left,
+  .header-center,
+  .header-right {
+    height: $header-height;
+  }
+
+  .header-right {
+    nav {
+      a {
+        margin-left: get-spacer(3);
+        color: white;
+      }
+      i {
+        font-size: $h4-font-size;
+      }
+    }
+  }
+}

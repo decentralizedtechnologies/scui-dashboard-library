@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+@import "bootstrap/scss/functions";
+@import "bootstrap/scss/mixins";
+@import "./bootstrap-variables";
+@import "./variables";
+
+// EBM variables
+@import "./ebm-variables";
+@import "ebm/functions/ebm-functions";
+@import "ebm/helpers/ebm-helpers";
+@import "./font-mixins";
+
+@mixin main {
+  padding-bottom: get-spacer(3);
+  padding-top: get-spacer(3);
+  position: relative;
+}
+
+@mixin section {
+  padding-bottom: get-spacer(3);
+  padding-top: get-spacer(3);
+  position: relative;
+}
