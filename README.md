@@ -1,6 +1,10 @@
-# FeLibraryAngular6
+# Frontend Library
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.2.4.
+# Edit the library
+# Package the library
+# Publish the library
+
+This library was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.2.4.
 
 ## Development server
 
